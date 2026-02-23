@@ -1,0 +1,46 @@
+{
+  "leather_vest": {
+    "id": "leather_vest",
+    "name": "Leather Vest",
+    "type": "armor",
+    "slot": "chest",
+    "defense": 3,
+    "weight": "light",
+    "level_req": 1,
+    "price": 40,
+    "description": "Worn leather offering basic protection."
+  },
+  "iron_chainmail": {
+    "id": "iron_chainmail",
+    "name": "Iron Chainmail",
+    "type": "armor",
+    "slot": "chest",
+    "defense": 6,
+    "weight": "medium",
+    "level_req": 3,
+    "price": 120,
+    "description": "Interlocking iron rings. Decent protection."
+  },
+  "cloth_robe": {
+    "id": "cloth_robe",
+    "name": "Cloth Robe",
+    "type": "armor",
+    "slot": "chest",
+    "defense": 1,
+    "weight": "light",
+    "level_req": 1,
+    "price": 30,
+    "description": "A simple robe. Offers little protection but no encumbrance."
+  },
+  "wooden_shield": {
+    "id": "wooden_shield",
+    "name": "Wooden Shield",
+    "type": "armor",
+    "slot": "offhand",
+    "defense": 4,
+    "weight": "medium",
+    "level_req": 1,
+    "price": 45,
+    "description": "A round wooden shield reinforced with iron bands."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "warrior": {
+    "id": "warrior",
+    "name": "Warrior",
+    "description": "A mighty fighter who excels in close combat.",
+    "primary_stat": "STR",
+    "base_stats": {
+      "health": 120,
+      "mana": 30,
+      "strength": 14,
+      "dexterity": 8,
+      "intelligence": 6,
+      "defense": 10,
+      "speed": 5
+    },
+    "starting_weapon": "short_sword",
+    "starting_armor": "leather_vest",
+    "skills": ["power_strike", "shield_bash", "war_cry"]
+  },
+  "ranger": {
+    "id": "ranger",
+    "name": "Ranger",
+    "description": "A swift hunter skilled with bow and blade.",
+    "primary_stat": "DEX",
+    "base_stats": {
+      "health": 90,
+      "mana": 50,
+      "strength": 8,
+      "dexterity": 14,
+      "intelligence": 8,
+      "defense": 6,
+      "speed": 9
+    },
+    "starting_weapon": "hunting_bow",
+    "starting_armor": "leather_vest",
+    "skills": ["multi_shot", "evasion", "trap_set"]
+  },
+  "shaman": {
+    "id": "shaman",
+    "name": "Shaman",
+    "description": "A spirit caller who wields elemental magic.",
+    "primary_stat": "INT",
+    "base_stats": {
+      "health": 70,
+      "mana": 100,
+      "strength": 5,
+      "dexterity": 7,
+      "intelligence": 15,
+      "defense": 4,
+      "speed": 6
+    },
+    "starting_weapon": "oak_staff",
+    "starting_armor": "cloth_robe",
+    "skills": ["lightning_bolt", "heal", "spirit_wolf"]
+  }
+}

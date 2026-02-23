@@ -1,0 +1,58 @@
+{
+  "skeleton": {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "type": "undead",
+    "level": 1,
+    "health": 30,
+    "damage": 4,
+    "defense": 2,
+    "speed": 3,
+    "xp_reward": 10,
+    "gold_drop": [2, 8],
+    "loot_table": ["short_sword"],
+    "description": "A rattling pile of bones animated by dark magic."
+  },
+  "rat_swarm": {
+    "id": "rat_swarm",
+    "name": "Rat Swarm",
+    "type": "beast",
+    "level": 1,
+    "health": 15,
+    "damage": 2,
+    "defense": 1,
+    "speed": 6,
+    "xp_reward": 5,
+    "gold_drop": [1, 3],
+    "loot_table": [],
+    "description": "A writhing mass of dungeon rats."
+  },
+  "goblin": {
+    "id": "goblin",
+    "name": "Goblin",
+    "type": "humanoid",
+    "level": 2,
+    "health": 40,
+    "damage": 6,
+    "defense": 3,
+    "speed": 5,
+    "xp_reward": 15,
+    "gold_drop": [5, 15],
+    "loot_table": ["hand_axe"],
+    "description": "A cunning green creature with a wicked grin."
+  },
+  "cave_spider": {
+    "id": "cave_spider",
+    "name": "Cave Spider",
+    "type": "beast",
+    "level": 2,
+    "health": 25,
+    "damage": 5,
+    "defense": 2,
+    "speed": 7,
+    "xp_reward": 12,
+    "gold_drop": [3, 10],
+    "loot_table": [],
+    "description": "A large spider lurking in dark corners."
+  }
+}

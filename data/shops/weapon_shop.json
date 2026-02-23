@@ -1,0 +1,13 @@
+{
+  "shop_id": "weapon_shop",
+  "name": "Iron Forge Armory",
+  "keeper": "Grimjaw",
+  "inventory": [
+    { "item_id": "short_sword", "stock": -1 },
+    { "item_id": "hand_axe", "stock": -1 },
+    { "item_id": "hunting_bow", "stock": -1 },
+    { "item_id": "oak_staff", "stock": -1 }
+  ],
+  "buy_multiplier": 1.0,
+  "sell_multiplier": 0.5
+}

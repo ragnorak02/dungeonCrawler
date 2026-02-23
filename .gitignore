@@ -1,0 +1,29 @@
+# Godot 4+ specific ignores
+.godot/
+*.tmp
+*.log
+
+# Godot-specific ignores
+*.translation
+
+# Import cache
+.import/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Export
+export/
+*.pck
+*.zip
+
+# Test results (regenerated)
+tests/test_results.json

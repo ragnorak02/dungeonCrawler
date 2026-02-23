@@ -1,0 +1,50 @@
+{
+  "short_sword": {
+    "id": "short_sword",
+    "name": "Short Sword",
+    "type": "weapon",
+    "subtype": "melee",
+    "damage": 5,
+    "speed": 1.2,
+    "range": 1,
+    "level_req": 1,
+    "price": 50,
+    "description": "A simple iron blade. Reliable and quick."
+  },
+  "hand_axe": {
+    "id": "hand_axe",
+    "name": "Hand Axe",
+    "type": "weapon",
+    "subtype": "melee",
+    "damage": 7,
+    "speed": 0.9,
+    "range": 1,
+    "level_req": 1,
+    "price": 65,
+    "description": "A sturdy axe. Hits harder but swings slower."
+  },
+  "hunting_bow": {
+    "id": "hunting_bow",
+    "name": "Hunting Bow",
+    "type": "weapon",
+    "subtype": "ranged",
+    "damage": 4,
+    "speed": 1.0,
+    "range": 5,
+    "level_req": 1,
+    "price": 55,
+    "description": "A basic bow for hunting game — or monsters."
+  },
+  "oak_staff": {
+    "id": "oak_staff",
+    "name": "Oak Staff",
+    "type": "weapon",
+    "subtype": "magic",
+    "damage": 3,
+    "speed": 1.1,
+    "range": 3,
+    "level_req": 1,
+    "price": 60,
+    "description": "A gnarled staff humming with faint energy."
+  }
+}

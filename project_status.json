@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "game": "Amaris",
+  "macro_phase": "Phase 1 — Foundation",
+  "completion_percent": 15,
+  "current_goal": "Macro Phase 1 — Foundation (Checkpoints 1-8)",
+  "current_task": "Skeleton scene flow and autoload wiring",
+  "timestamps": {
+    "last_code_update": "2026-02-23T12:00:00Z",
+    "last_gameplay_update": null,
+    "last_art_update": null
+  },
+  "checkpoints": {
+    "1_repo_standardized": true,
+    "2_boots_without_errors": true,
+    "3_input_map_programmatic": true,
+    "4_controller_navigation": true,
+    "5_base_scene_flow": true,
+    "6_logging_error_handling": true,
+    "7_config_data_loading": true,
+    "8_version_build_visible": true
+  },
+  "features": {
+    "autoloads_wired": true,
+    "main_menu": true,
+    "character_select": true,
+    "town_hall": true,
+    "dungeon_entrance": true,
+    "dungeon_floor": true,
+    "pause_menu": true,
+    "controller_input": true,
+    "data_registry": true,
+    "save_system_stub": true
+  },
+  "testing": {
+    "last_run": null,
+    "pass_count": 0,
+    "fail_count": 0,
+    "status": "not_run"
+  },
+  "health": "green"
+}

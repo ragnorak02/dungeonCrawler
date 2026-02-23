@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but it can also be manually edited with care.
+
+config_version=5
+
+[application]
+
+config/name="Amaris"
+config/description="2D Isometric Dungeon Crawler"
+run/main_scene="res://scenes/MainMenu.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Events="*res://scripts/autoload/events.gd"
+GameManager="*res://scripts/autoload/game_manager.gd"
+InputSetup="*res://scripts/autoload/input_setup.gd"
+SaveManager="*res://scripts/autoload/save_manager.gd"
+DataRegistry="*res://scripts/autoload/data_registry.gd"
+DungeonManager="*res://scripts/autoload/dungeon_manager.gd"
+AudioManager="*res://scripts/autoload/audio_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[input]
+
+; All inputs configured programmatically via InputSetup autoload
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
