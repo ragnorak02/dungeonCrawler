@@ -1,12 +1,12 @@
 {
-  "name": "Amaris",
+  "name": "Dungeon Crawler",
   "engine": "Godot 4.6",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "build": "20260223",
   "genre": "2D Isometric Dungeon Crawler",
   "renderer": "GL Compatibility",
   "resolution": "1280x720",
-  "phase": "Phase 1 — Foundation",
+  "phase": "Phase 2 — Player & Movement",
   "description": "Dark isometric dungeon crawler with procedural floors, loot, and town hub.",
   "entry_point": "scenes/MainMenu.tscn",
   "controller_support": true

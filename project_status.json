@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "game": "Amaris",
-  "macro_phase": "Phase 1 — Foundation",
-  "completion_percent": 15,
-  "current_goal": "Macro Phase 1 — Foundation (Checkpoints 1-8)",
-  "current_task": "Skeleton scene flow and autoload wiring",
+  "game": "Dungeon Crawler",
+  "macro_phase": "Phase 2 — Player & Movement",
+  "completion_percent": 25,
+  "current_goal": "Macro Phase 2 — Player & Movement (Checkpoints 9-16)",
+  "current_task": "Player character, isometric movement, stats, HUD",
   "timestamps": {
-    "last_code_update": "2026-02-23T12:00:00Z",
-    "last_gameplay_update": null,
+    "last_code_update": "2026-02-23T18:00:00Z",
+    "last_gameplay_update": "2026-02-23T18:00:00Z",
     "last_art_update": null
   },
   "checkpoints": {
@@ -18,7 +18,15 @@
     "5_base_scene_flow": true,
     "6_logging_error_handling": true,
     "7_config_data_loading": true,
-    "8_version_build_visible": true
+    "8_version_build_visible": true,
+    "9_player_stats_container": true,
+    "10_player_scene_created": true,
+    "11_isometric_movement": true,
+    "12_class_colored_visuals": true,
+    "13_camera_follow": true,
+    "14_player_hud": true,
+    "15_hp_mp_bars": true,
+    "16_floor_indicator": true
   },
   "features": {
     "autoloads_wired": true,
@@ -30,7 +38,11 @@
     "pause_menu": true,
     "controller_input": true,
     "data_registry": true,
-    "save_system_stub": true
+    "save_system_stub": true,
+    "player_movement": true,
+    "player_stats": true,
+    "player_hud": true,
+    "camera_follow": true
   },
   "testing": {
     "last_run": null,
